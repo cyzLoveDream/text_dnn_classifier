@@ -1,0 +1,19 @@
+[net_word_params]
+batch_size: 32
+epoch: 1
+max_len: 1000
+embedding_size: 500
+ckpt: ../model/weights_final_nn.best.hdf5
+model_file: ../model/model.h5py
+
+[data_path]
+train_path: ../data_example/train.tsv
+test_path: ../data_example/test.tsv
+w2v_path: ../model/w2v.pkl
+sub_path: ../submission/sub_test.csv
+user_dict: ../data_example/user_dict.txt
+eval_test: ../data_example/eval_test.csv
+
+[data_number]
+train: 2000
+test: 1500

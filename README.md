@@ -13,6 +13,4 @@ this is a simple example. I will add the most NLP network in it soon after.
 
 Later, I will draw lessons from the contest of ideas, and make update.
 
-Finally I will try to NLP combining neural network and the traditional machine learning (eg. xgboost, ML, Lightgbm), this will be creative 
-
-thinking for the objective.
+Finally I will try to NLP combining neural network and the traditional machine learning (eg. xgboost, ML, Lightgbm), this will be creative thinking for the objective.

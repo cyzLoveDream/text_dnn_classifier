@@ -1,6 +1,7 @@
 import keras.backend as K
 from keras.layers import Embedding,Input, Convolution1D, MaxPooling1D, Flatten, Dense, Bidirectional,concatenate,GRU,Dropout,LSTM
 from keras.models import Model
+from keras.layers import Conv1D
 
 def precision(y_true,y_pred):
 	"""Precision metric.
@@ -76,6 +77,37 @@ def RCNN(vocab_size, embedding_matrix,ckpt_path,max_len,embedding_size):
 	den = Dense(32)(den)
 	main_output = Dense(1,activation='sigmoid')(den)
 	model = Model(inputs=main_input,outputs=main_output)
+	print(model.summary())
+	try:
+		model.load_weights(ckpt_path)
+		print("load weights finish....")
+	except:
+		print("no pre-weights...")
+	model.compile(loss="binary_crossentropy",optimizer="adam",metrics=["accuracy",f1])
+	return model
+
+def textCNN(vocab_size, embedding_matrix,ckpt_path,max_len,embedding_size):
+	"""
+	textCNN模型
+	:param vocab_size:
+	:param ckpt_path: 权重路径
+	:param could_ckpt_path:
+	:return: model
+	"""
+	seq = Input(shape=(max_len,),name="input",dtype='int32')
+	textCNN = Embedding(vocab_size,embedding_size,input_length=max_len,trainable=False, weights=[embedding_matrix])(seq)
+	cnn1 = Conv1D(filters=128,kernel_size=2,activation="relu",padding="same")(textCNN)
+	cnn1 = MaxPooling1D(pool_size=4)(cnn1)
+	cnn2 = Conv1D(filters=128,kernel_size=3,activation="relu",padding="same")(textCNN)
+	cnn2 = MaxPooling1D(pool_size=4)(cnn2)
+	cnn3 = Conv1D(filters=128,kernel_size=5,activation="relu",padding="same")(textCNN)
+	cnn3 = MaxPooling1D(pool_size=4)(cnn3)
+	cnn = concatenate([cnn1,cnn2,cnn3],axis=-1)
+	flt = Flatten()(cnn)
+	drop = Dropout(0.5)(flt)
+	d1 = Dense(64,activation="relu")(drop)
+	output = Dense(1,activation="sigmoid")(d1)
+	model = Model(inputs=seq,outputs=output)
 	print(model.summary())
 	try:
 		model.load_weights(ckpt_path)

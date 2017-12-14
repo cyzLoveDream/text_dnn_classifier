@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cf8d45-540b-47d4-900a-2c09cbb2f31a" name="Default" comment="" />
+    <list default="true" id="31cf8d45-540b-47d4-900a-2c09cbb2f31a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untils/NlpNetWork.py" afterPath="$PROJECT_DIR$/untils/NlpNetWork.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="195">
               <caret line="51" column="53" lean-forward="true" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
               <folding />
             </state>
@@ -71,7 +75,7 @@
       <file leaf-file-name="tools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untils/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="-321">
               <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="e#614#952#0" expanded="false" />
@@ -94,15 +98,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NlpNetWork.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NlpNetWork.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untils/NlpNetWork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="82" column="11" lean-forward="true" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+            <state relative-caret-position="626">
+              <caret line="114" column="11" lean-forward="true" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
               <folding>
-                <element signature="e#219#607#0" expanded="false" />
-                <element signature="e#638#1009#0" expanded="false" />
-                <element signature="e#1036#2012#0" expanded="false" />
+                <element signature="e#251#639#0" expanded="false" />
+                <element signature="e#670#1041#0" expanded="false" />
+                <element signature="e#1068#2044#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -117,6 +121,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="master" />
+        <option value="biorad" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -125,12 +138,12 @@
         <option value="$PROJECT_DIR$/untils/word2vec.py" />
         <option value="$PROJECT_DIR$/data_example/all_data.txt" />
         <option value="$PROJECT_DIR$/untils/Word2Vec.py" />
-        <option value="$PROJECT_DIR$/untils/NlpNetWork.py" />
         <option value="$PROJECT_DIR$/config.txt" />
         <option value="$PROJECT_DIR$/main/generate_test_eval.py" />
         <option value="$PROJECT_DIR$/untils/DataProcessing.py" />
         <option value="$PROJECT_DIR$/untils/tools.py" />
         <option value="$PROJECT_DIR$/main/Main.py" />
+        <option value="$PROJECT_DIR$/untils/NlpNetWork.py" />
       </list>
     </option>
   </component>
@@ -146,6 +159,7 @@
     <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -188,20 +202,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DNN_nlp_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DNN_nlp_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feature_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -209,7 +209,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="D:/ProgramData/Anaconda3/envs/spark/python.exe" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -507,12 +507,12 @@
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45612136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45661604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38394794" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -530,8 +530,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add textCNN network" />
+    <option name="LAST_COMMIT_MESSAGE" value="add textCNN network" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,26 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/generate_test_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untils/NlpNetWork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="82" column="11" lean-forward="true" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <element signature="e#219#607#0" expanded="false" />
-            <element signature="e#638#1009#0" expanded="false" />
-            <element signature="e#1036#2012#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untils/DataProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1130">
@@ -649,9 +659,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/untils/Word2Vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="51" column="53" lean-forward="true" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/untils/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="-321">
           <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="e#614#952#0" expanded="false" />
@@ -663,19 +689,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untils/Word2Vec.py">
+    <entry file="file://$PROJECT_DIR$/main/generate_test_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="75">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/Main.py">
+    <entry file="file://$PROJECT_DIR$/untils/NlpNetWork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="51" column="53" lean-forward="true" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="626">
+          <caret line="114" column="11" lean-forward="true" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#251#639#0" expanded="false" />
+            <element signature="e#670#1041#0" expanded="false" />
+            <element signature="e#1068#2044#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
